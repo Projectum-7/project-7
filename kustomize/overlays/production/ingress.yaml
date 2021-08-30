@@ -16,5 +16,5 @@ spec:
           service:
             name: website
             port:
-              number: 80
+              number: 3000
     host: website.140.238.216.140.nip.io
