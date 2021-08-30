@@ -17,4 +17,4 @@ spec:
             name: website
             port:
               number: 80
-    host: website.140.238.209.246.nip.io
+    host: website.140.238.216.140.nip.io
