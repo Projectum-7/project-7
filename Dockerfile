@@ -1,5 +1,7 @@
 # Install dependencies only when needed
-FROM veresij/node:15-alpine-libc6-arm AS deps
+FROM node:15-alpine AS deps
+
+RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm install --frozen-lockfile
