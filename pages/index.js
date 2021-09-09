@@ -44,7 +44,7 @@ export default function Home() {
           >
             <h3>Deploy &rarr;</h3>
             <p>
-              Use Kubernetes yo!
+              Use Kubernetes yo! Please :D 
             </p>
           </a>
         </div>
